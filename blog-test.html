@@ -5,31 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog or news site</title>
-    <logo></logo>
-    <style>
-            .kitten{
-                text-decoration: double;
-                color: pink;
-                border: dashed 2px;
-                padding: 62px;
-                margin: 45px;
-            }
-            .wow{
-            color:pink;
-            border: solid 2px black;
-            }
-
-            p {
-                color: blue;
-                font-size: 14px;
-            }
-            #perfect {
-                color: gold
-            }
-            a {
-                color: orange;
-            }
-        </style>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h3 class="kitten">Let's get this purple</h3>
@@ -41,6 +18,16 @@
         <p class="wow">Lorum ipsum. Lorum ipsum. Lorem ipsum.</p>
         <p>Lorum ipsum. Lorum ipsum. Lorem ipsum.</p>
         <p class="wow">Lorum ipsum. Lorum ipsum. Lorem ipsum.</p>
+        
+        
+        <article class="smarticle">
+            targetable
+        </article>
+        <article class="smarticle">
+            targetable
+        </article>
+
+
         <ul>1. Lorem.
             2. Ipsum.
             3. dits.
@@ -53,6 +40,9 @@
         <p style="color: crimson" padding: 100px>I know a song that gets on everybody's nerves.</p>
         <aside>What a good aside, eh?</aside>
     </article>
+
+    <button onclick="showAlert()">Click me!</button>
+    <input oninput="logHello()">
 </body>
 <footer>Seth Ripman 2019 &copy;</footer>
 </html>
